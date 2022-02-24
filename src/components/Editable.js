@@ -18,6 +18,7 @@ const [isEditing, setEditing] = useState(false);
 
   return (
       <div classname="edit-text">
+          <h1>Editable Text Box</h1>
     <section {...props}>
       {isEditing ? (
         <div
