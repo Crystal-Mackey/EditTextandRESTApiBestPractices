@@ -3,6 +3,7 @@
 const BestPractices = () => {
     return(
         <div className="practices">
+            <h1>REST API Best Practices</h1>
             <ol>
                 <li> Use JSON as the format for sending and receiving data</li>
                 <li>Use nouns instead of verbs in Endpoints</li>
